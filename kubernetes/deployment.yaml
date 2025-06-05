@@ -6,7 +6,7 @@ metadata:
   labels:
     app: flask-login
 spec:
-  replicas: 2 # You can adjust the number of replicas
+  replicas: 3 # You can adjust the number of replicas
   selector:
     matchLabels:
       app: flask-login
